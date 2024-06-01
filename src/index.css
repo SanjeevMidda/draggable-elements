@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.App {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circleContainer {
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  align-content: flex-start;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 50px;
+}
